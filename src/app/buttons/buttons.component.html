@@ -1,0 +1,4 @@
+<body>
+   <button [ngClass]="inputValue === 'Clr' ? 'clear-btn' : 'normal-btn'" type="button"
+      (click)="buttonClick.emit()">{{inputValue}}</button>
+</body>

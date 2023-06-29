@@ -1,0 +1,33 @@
+body{
+   margin-top: 0px;
+   color: white;
+   background-color: rgb(84, 78, 122);
+   height: 100vh;
+   display: flex;
+   place-items: center;
+   justify-content: center;
+}
+
+.res-class{
+   background-color: azure;
+   color: black;
+   margin: 10px;
+   border-radius: 10px;
+}
+
+.btn-container{
+   display: grid;
+   row-gap: 10px;
+   column-gap: 10px;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cal-container{
+   background-color: lightseagreen;
+   display: grid;
+   justify-content: center;
+   width: 333px;
+   margin: 10px;
+   border-radius: 10px;
+}

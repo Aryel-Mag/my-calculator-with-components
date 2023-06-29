@@ -1,0 +1,29 @@
+.clear-btn{
+   background-color: red;
+   border: 4px solid rgb(255, 55, 55); /* Green */
+   height: 70px;
+   width: 70px;
+   margin: 1vh;
+   transition-duration: 0.4s;
+   border-radius: 20px;
+}
+
+.clear-btn:hover{
+   background-color: orangered;
+   cursor: pointer;
+}
+
+.normal-btn{
+   background-color: aquamarine; 
+   height: 70px;
+   width: 70px;
+   margin: 1vh;
+   transition-duration: 0.4s;
+   border: 4px solid aqua; /* Green */
+   border-radius: 20px;
+}
+
+.normal-btn:hover{
+   background-color: aqua;
+   cursor: pointer;
+}
